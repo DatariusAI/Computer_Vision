@@ -29,3 +29,23 @@ Thumbs.db
 *.pkl
 *.h5
 data/
+
+!.env.example
+.env
+.env.*
+
+# Security baseline
+*.pem
+*.key
+id_rsa*
+credentials.json
+secrets.yaml
+*.sqlite
+*.db
+
+# Python (appended)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
